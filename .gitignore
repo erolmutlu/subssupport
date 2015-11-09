@@ -1,7 +1,6 @@
 *.pyo
 *.pyc
 *.mo
-*.ipk
 ipkg.deps
 test/moviefiles
 test/subtmp
