@@ -7,7 +7,7 @@ B=${D}/ipkg.build.$$
 DP=${D}/ipkg.deps
 
 P26="http://www.python.org/ftp/python/2.6/Python-2.6.tgz"
-P27="http://www.python.org/ftp/python/2.7.5/Python-2.7.5.tgz"
+P27="http://www.python.org/ftp/python/2.7.2/Python-2.7.2.tgz"
 
 pushd ${D} &> /dev/null
 
@@ -28,10 +28,10 @@ if [ -d ${DP}/Python-2.6 ] && [ -d ${DP}/Python-2.7 ]; then
 else
 	echo "downloading neccesary python packages..."
 	wget -O ${DP}/Python-2.6.tgz $P26
-	wget -O ${DP}/Python-2.7.5.tgz $P27
+	wget -O ${DP}/Python-2.7.2.tgz $P27
 	tar -C ${DP} -xzf ${DP}/Python-2.6.tgz
-	tar -C ${DP} -xzf ${DP}/Python-2.7.5.tgz
-	mv ${DP}/Python-2.7.5 ${DP}/Python-2.7
+	tar -C ${DP} -xzf ${DP}/Python-2.7.2.tgz
+	mv ${DP}/Python-2.7.2 ${DP}/Python-2.7
 fi
 
 cat > ${P}/CONTROL/control << EOF
