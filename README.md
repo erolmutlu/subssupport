@@ -7,6 +7,7 @@ Please Install first below files;
 - opkg install python-xmlrpc
 - opkg install unrar_4.0.4-r0_mips32el (upload to /tmp than "cd /tmp" )
 - opkg install enigma2-plugin-extensions-subssupport_1.5.4_20151105_all (upload to /tmp than "cd /tmp" )
+- opkg install enigma2-plugin-extensions-mediaplayer2_0.61_20151006_all.ipk (upload to /tmp than "cd /tmp" )
 - upload plugin.py tom /tmp folders and "cd /tmp", "cp plugin.py /usr/lib/enigma2/python/Plugins/SystemPlugins/Hotplug/"
 
 Enjoy :)
